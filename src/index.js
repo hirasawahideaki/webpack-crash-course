@@ -1,10 +1,5 @@
 import _ from 'lodash'
-import { NAME as NAME_OF_HIDE } from './utilities';
-import tiger from './utilities';
-
-// console.log(utilities.NiJou(3));
-console.log(NAME_OF_HIDE);
-console.log(tiger.say());
+import './style.css'
 
 function component(){
     const element = document.createElement('div');
@@ -14,3 +9,4 @@ function component(){
 }
 
 document.body.appendChild(component());
+document.body.classList.add('haikei');
