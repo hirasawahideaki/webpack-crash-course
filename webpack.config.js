@@ -62,5 +62,6 @@ module.exports = {
     }),
       new OptimizeCSSAssetesPlugin({})
   ],
-  }
+  },
+  devtool: 'eval-source-map'
 }
